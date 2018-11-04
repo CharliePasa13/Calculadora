@@ -1,14 +1,17 @@
-def suma(a,b):
-    return a + b
+def suma(num1, num2):
+    return num1 + num2
 
-def resta(a,b):
-    return a - b
 
-def multiplicacion(a,b):
-    return a * b
+def resta(num1, num2):
+    return num1 - num2
 
-def division(a,b):
-    return a / b
+
+def multiplicacion(num1, num2):
+    return num1 * num2
+
+
+def division(num1, num2):
+    return num1 / num2
 
 calc= {
     '+': suma,
